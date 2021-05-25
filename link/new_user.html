@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/login-styles.css">
+    <link rel="stylesheet" href="../css/register-styles.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="bg-container">
+            <header class="logo-container">
+                <div class="logo-bg">
+                    <img class="logo" src="../img/rip.png" alt="musicer">
+                    <h1 class="logo-title">MUSICER</h1>
+                </div>
+            </header>
+               <div class="form-container">
+                <h2 class="sesion-title">Regístrate</h2>
+                <form class="form" action="#">
+                    <div class="input-container">
+                        <label for="correo">Correo</label>
+                        <input type="email" name="correo" required>
+                    </div>
+                    <div class="input-container">
+                        <label for="contraseña">Contraseña</label>
+                        <input type="password" name="contraseña" required>
+                    </div>
+                     <div class="input-container">
+                        <label for="recontraseña">Confirmar contraseña</label>
+                        <input type="password" name="recontraseña" required>
+                    </div>
+                      <div class="polices-check">
+                          
+                          <p>
+                            <input type="checkbox" >  
+                            al registrarme acepto las
+                               <a class="musicer-link" href="#">
+                                   Políticas de privacidad
+                               </a>
+                          </p>
+                      </div>
+                    <button class="login-btn" type="submit">Registrar</button>
+                    <a href="../index.html" class="back-btn" type="submit">Regresar</a>
+                </form>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
