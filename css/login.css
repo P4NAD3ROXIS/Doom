@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.main-container{
+    width: 100%;
+    background-image: url("../img/3450-pcrcbann.jpg");
+    height: 100vh;
+    background-position: left;
+}
+.bg-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/3450-pcrcbann.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo-container, .logo-bg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.logo-title{
+    font-family: 'Poired one', cursive;
+    color: red;
+    font-size: 2.5em;
+}
+.logo{
+    width: 10em;
+}
+.form-container{
+    min-height: 40vh;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+}
+.input-container label{
+    color: white;
+    font-size: 1.6em;
+}
+.input-container input{
+    height: 2em;
+    border-radius: 15px;
+    border: 0px;
+}
+.input-container :focus{
+    border: 0px;
+    outline: 0px;
+}
+.login-btn{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 100%;
+    background-color: purple;
+    color:white;
+    font-size: 1.7em;
+    border: 0px;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    border-radius: 15px;
+}
+.musicer-link{
+    width: 50%;
+    color: tomato;
+    text-align: center;
+}
+.sesion-title{
+    display: none;
+}
+
+@media screen and (min-width:720px) and (orientation:landscape)
+{
+   .main-container{
+       background-image: none;
+   }
+    .bg-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    }
+  .logo-container{
+      width: 50%;
+      height: 100vh;
+      background-image: url("../img/dj.jpg");
+      background-position: center;
+      background-size: cover;
+  }
+  .logo-bg{
+      width: 100%;
+      height: 100%;
+    background-color: rgba(1, 89,90, 0.65);
+  }
+  .logo{
+      width: 12em;
+  }
+  .logo-title{
+      font-size: 6em;
+  }
+  .form-container{
+      width: 50%;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: #535e60;
+  }
+  .sesion-title{
+      display: block;
+      color: #6f8b91;
+      font-size: 3em;
+      margin-bottom: 2em;
+  }
+  .form{
+      width: 70%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-radius: 15px;
+  }
+  .login-btn{
+      margin-top: 2em;
+      width: 40%;
+      background-color: #6f8b91;
+      color: skyblue;
+  }
+  .input-container{
+      width: 100%;
+      margin-top: 1em;
+  }
+  .musicer-link{
+      font-size: 0.7em;
+  }
+}
