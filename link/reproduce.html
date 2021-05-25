@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <link href = "https://fonts.googleapis.com/css2? family = PT + Sans: ital, wght @ 0,400; 0,700; 1,400; 1,700 & display = swap "rel =" stylesheet ">
+    <link rel="stylesheet" href="../css/menu-styles.css">
+    <link rel="stylesheet" href="../css/nav-songs.css">
+    <link rel="stylesheet" href="../css/playing-styles.css">
+    
+   
+    <title>reproduciendo</title>
+</head>
+<body>
+    <div class="main-container">
+        <header class="menu-container">
+            <div class="logo-container">
+                <img src="../img/rip.png" alt="musicer">
+                <div>
+                    MUSICER
+                </div>
+            </div>
+            <nav class="main-menu"> 
+                <img id="menu-btn" src="../img/home.png" >
+              <ul id="menu-list" class="list-menu ">
+                  <li><a href="#">
+                      <img src="../img/avatar.png" alt="usuario">
+                  </a></li>
+                 <li><a href="#">Perfil de usuario</a></li>
+                 <li><a href="#">Configuración</a></li>
+              </ul>
+            </nav>
+        </header>
+
+            <main class="main-content">
+                <div class="playing-controls-container">
+                    <div class="cover-container">
+                        <div class="cover-image">
+                            <img src="../img/covers/ASAN.jpg">
+                        </div>
+                        <img class="like-btn" src="../icons/like.svg">
+                    </div>
+                    <div class="progress-bar-container">
+                        <div class="progress-bar">
+                            <span class="line"></span>
+                            <span class="circle"></span>
+                        </div>
+                    </div>
+                    <div class="buttons-container">
+                        <button>
+                            <img src="../icons/playing-prev-btn.svg">
+                        </button>
+                        <button>
+                            <img src="../icons/playing-play-btn.svg">
+                        </button>
+                        <button>
+                            <img src="../icons/playing-next-btn.svg">
+                        </button>
+                    </div>
+                </div>
+                <div class="data-container">
+                    <div class="title-song">ASAN||Music Sessions</div>
+                    <div class="artist-song">BZRP</div>
+                </div>
+            </main>
+
+        <nav class="nav.songs">
+            <div class="nav__home rotate_nav">
+               <img src="../icons/home.svg" alt="">
+            </div>
+            <div class="nav__search rotate_nav">
+              <img src="../icons/search.svg" alt="">
+           </div>
+           <div class="nav__playlist rotate_nav">
+              <img src="../icons/lists.svg" alt="">
+           </div>
+           <div class="nav__favorites rotate_nav">
+              <img src="../icons/favorites.svg" alt="">
+           </div>
+          </nav>
+    </div>
+    <script src="../js/menu.js"></script>
+</body>
+</html>
