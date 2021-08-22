@@ -7,7 +7,7 @@
 
 
 
-<p align="center">Es un diseño para todos xd</p>
+<p align="center"> XD Men I just wanna dream</p>
 
 <p align="center">
   
