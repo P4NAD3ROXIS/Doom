@@ -1,4 +1,4 @@
-<h1 align="center">Trabajo  encargado del Doom :3</h1>
+<h1 align="center">Trabajo  encargado del Doom.</h1>
 <p align="center">
   <img src="https://img.shields.io/badge/MAINTAINED-YES-green?style=for-the-badge">
   <img src="https://img.shields.io/badge/LICENSE-MIT-blue?style=for-the-badge">
