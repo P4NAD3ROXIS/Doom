@@ -11,7 +11,7 @@
 
 <p align="center">
   
-  <img src="https://github.com/P4NAD3ROXIS/Doom/blob/main/maxresdefault.jpg?raw=true">
+  <img src="https://github.com/P4NAD3ROXIS/Doom/blob/main/IMG_20210811_085248.jpg?raw=true">
   
 </p>
 
